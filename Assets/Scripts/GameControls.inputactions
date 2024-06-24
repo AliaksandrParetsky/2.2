@@ -1,0 +1,54 @@
+{
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "Character",
+            "id": "c98d5719-e54d-4449-adfb-c17a2ba046c4",
+            "actions": [
+                {
+                    "name": "MousePosition",
+                    "type": "Button",
+                    "id": "8a73d906-9c7c-4afa-9e8a-eab4b89ae19c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AddMate",
+                    "type": "Button",
+                    "id": "15b70b0b-2623-48c1-adf4-b60b94679ddc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "21d7a4bd-dc81-4be9-a695-ea1818cff73a",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63804d1e-d698-41db-8fab-d952ad0bc53f",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AddMate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
