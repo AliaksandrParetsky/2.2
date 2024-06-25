@@ -521,7 +521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 354939144}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: UIPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 618011733}
   - component: {fileID: 618011735}
   - component: {fileID: 618011734}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -952,6 +952,7 @@ Transform:
   m_Children:
   - {fileID: 1330274717}
   - {fileID: 1841725039}
+  - {fileID: 1457850106}
   - {fileID: 1591730500}
   - {fileID: 1942192271}
   - {fileID: 1893827740}
@@ -1282,7 +1283,7 @@ GameObject:
   - component: {fileID: 792866673}
   - component: {fileID: 792866674}
   - component: {fileID: 792866675}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: NavMeshModifierVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1297,12 +1298,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792866671}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1137, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.685, y: 0, z: -71.8436}
+  m_LocalScale: {x: 50, y: 1, z: 9.285758}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1591730500}
+  m_Father: {fileID: 1457850106}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &792866673
 MonoBehaviour:
@@ -1861,7 +1862,7 @@ GameObject:
   - component: {fileID: 1205700782}
   - component: {fileID: 1205700783}
   - component: {fileID: 1205700784}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: NavMeshModifierVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1876,12 +1877,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205700780}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4314, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.569998, y: 0, z: -71.8436}
+  m_LocalScale: {x: 50, y: 1, z: 9.285758}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1591730500}
+  m_Father: {fileID: 1457850106}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1205700782
 MonoBehaviour:
@@ -2287,6 +2288,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330274716}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1457850105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1457850106}
+  m_Layer: 0
+  m_Name: NavMeshWater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457850106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457850105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 792866672}
+  - {fileID: 1205700781}
+  m_Father: {fileID: 738204190}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1484168591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,7 +2457,7 @@ GameObject:
   - component: {fileID: 1511877172}
   - component: {fileID: 1511877174}
   - component: {fileID: 1511877173}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2500,7 +2534,7 @@ GameObject:
   - component: {fileID: 1533484813}
   - component: {fileID: 1533484812}
   - component: {fileID: 1533484811}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2607,7 +2641,7 @@ GameObject:
   - component: {fileID: 1556939280}
   - component: {fileID: 1556939281}
   - component: {fileID: 1556939282}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Mate_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2843,7 +2877,7 @@ GameObject:
   - component: {fileID: 1591730500}
   - component: {fileID: 1591730503}
   - component: {fileID: 1591730502}
-  - component: {fileID: 1591730501}
+  - component: {fileID: 1591730504}
   m_Layer: 7
   m_Name: Water
   m_TagString: Untagged
@@ -2863,32 +2897,9 @@ Transform:
   m_LocalPosition: {x: 0, y: -0, z: -71.8436}
   m_LocalScale: {x: 50, y: 1, z: 9.285758}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 792866672}
-  - {fileID: 1205700781}
+  m_Children: []
   m_Father: {fileID: 738204190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1591730501
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591730499}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1591730502
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2939,6 +2950,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591730499}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1591730504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591730499}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1605850884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,7 +2983,7 @@ GameObject:
   - component: {fileID: 1605850888}
   - component: {fileID: 1605850887}
   - component: {fileID: 1605850886}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3397,7 +3429,7 @@ Transform:
   m_GameObject: {fileID: 1645794922}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.98, y: 1.5, z: 22.16}
+  m_LocalPosition: {x: 5.98, y: 1.5, z: 21.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3437,6 +3469,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 031ec7793ecfcb442b36c09389307261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &1645794929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3533,7 +3568,7 @@ GameObject:
   - component: {fileID: 1652579713}
   - component: {fileID: 1652579715}
   - component: {fileID: 1652579714}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3792,7 +3827,7 @@ GameObject:
   - component: {fileID: 1698162831}
   - component: {fileID: 1698162833}
   - component: {fileID: 1698162832}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4325,7 +4360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1854028175}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: UIPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4595,7 +4630,7 @@ GameObject:
   - component: {fileID: 1897426723}
   - component: {fileID: 1897426724}
   - component: {fileID: 1897426725}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Mate_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4902,7 +4937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1942192271}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}

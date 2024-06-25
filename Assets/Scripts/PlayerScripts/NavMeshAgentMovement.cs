@@ -18,6 +18,7 @@ public class NavMeshAgentMovement : MonoBehaviour
         }
     }
 
+    [SerializeField] private LayerMask layerMask;
     
     private float timeToDestroy = 1.0f;
 
@@ -35,16 +36,11 @@ public class NavMeshAgentMovement : MonoBehaviour
     {
         Ray ray = cam.ScreenPointToRay(mousePos);
 
-        if (Physics.Raycast(ray, out RaycastHit hitInfo))
+        if (Physics.Raycast(ray, out RaycastHit hitInfo, Mathf.Infinity ,layerMask))
         {
-            GameObject hitObj = hitInfo.transform.gameObject;
+            PointIndicator(hitInfo.point);
 
-            if(hitObj.layer == 7 || hitObj.layer == 8)
-            {
-                PointIndicator(hitInfo.point);
-
-                Agent.SetDestination(hitInfo.point);
-            }
+            Agent.SetDestination(hitInfo.point);
         }
     }
 

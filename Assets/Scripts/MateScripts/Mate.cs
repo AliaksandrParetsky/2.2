@@ -35,7 +35,7 @@ public abstract class Mate : MonoBehaviour
     
     private Vector3 PositionAdjustment()
     {
-        Vector3 offset = new Vector3(1.5f, 0.0f, 5.0f);
+        Vector3 offset = new Vector3(1.0f, 0.0f, 2.0f);
         
         return character.transform.position + offset;
     }
